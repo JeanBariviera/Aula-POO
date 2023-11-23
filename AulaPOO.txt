@@ -1,0 +1,36 @@
+loja de produtos 
+
+ClasseProduto
+    Código
+    Nome
+    Preço
+
+ClasseLivro 
+    (herda de Produto)
+    Autor
+    Número de páginas
+
+Function ExibirInformações(){
+    Sobrescrito para informações específicas dos livros
+}
+
+ClasseCliente
+    Id Cliente
+    Nome Cliente
+    Email
+
+Function RealizarPedido(){
+    criar um novo pedido para o Cliente
+}
+
+ClassePedido
+    Cliente(referencia ao cliente que fez o pedido)
+    Produtos (lista de produtos no pedido)
+    Total (valor total do pedido)
+
+    Function ExibirResumo(){
+        Gera um resumo do pedido
+    }
+
+
+
